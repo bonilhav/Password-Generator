@@ -28,7 +28,7 @@ function random(arr) {
 
 //function to prompt user for choice selection
 function userInput() {
-  var passwordLength = prompt("How long would you like the password to be?");
+  var passwordLength = prompt("Please indicate a password length that is between 8 and 128 characters");
   if (passwordLength < 8) {
     alert("Password must be at least 8 characters")
     return;
@@ -41,8 +41,8 @@ function userInput() {
   var includesUpperCase = confirm("Would you like an uppercase?");
   var includesNumber = confirm("Would you like a number?");
   var includesSpecialCharacter = confirm("Would you like a special character?");
-  console.log(passwordLength, includesLowerCase)
-  if (!includesSpecialCharacter && !includesUpperCase && !includesNumber && !includesSpecialCharacter) {
+  console.log(passwordLength)
+  if (!includesLowerCase && !includesSpecialCharacter && !includesUpperCase && !includesNumber && !includesSpecialCharacter) {
     alert("Must include one selected attribute")
     return;
   }
