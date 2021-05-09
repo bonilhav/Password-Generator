@@ -1,1 +1,3 @@
-This is a website designed to generate a new password with each request. The password will be unique with varied variables. 
+This is a website designed to generate a new password with each request. The password will be unique with varied variables. The user will be able to select which variables they require within the password: lower case, upper case, numbers and special characters. The program is designed to require that at least one of the attributes be selected to generate a valid password. The user will also be required to designate the length of the desired password. 
+
+<img src="screenshot_of_generator.png">
